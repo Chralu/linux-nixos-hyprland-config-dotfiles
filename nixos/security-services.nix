@@ -44,7 +44,7 @@
   # security.polkit.enable = true;
   programs.browserpass.enable = true;
   services.clamav = {
-    daemon.enable = true;
+    daemon.enable = false;
     fangfrisch.enable = true;
     fangfrisch.interval = "daily";
     updater.enable = true;

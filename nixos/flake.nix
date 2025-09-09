@@ -48,6 +48,7 @@
         ./networking.nix
         # ./mac-randomize.nix
         # ./open-ssh.nix
+        # ./clamav-scanner.nix
         ./mosh.nix
         ./firewall.nix
         ./dns.nix
