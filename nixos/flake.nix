@@ -57,7 +57,7 @@
         ./programming-languages.nix
         ./lsp.nix
         # ./rust.nix
-        ./radicle.nix
+        # ./radicle.nix
         ./wasm.nix
         ./info-fetchers.nix
         ./utils.nix
