@@ -19,7 +19,7 @@
         ./opengl.nix
         # ./fingerprint-scanner.nix
         # ./clamav-scanner.nix
-        ./yubikey.nix
+        # ./yubikey.nix
         ./sound.nix
         ./usb.nix
         ./keyboard.nix
