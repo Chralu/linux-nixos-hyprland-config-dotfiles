@@ -11,6 +11,7 @@
       vscodium
       firefox
       fractal
+      lnav
     ];
   };
 
