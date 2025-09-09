@@ -25,6 +25,7 @@
     # inputs.wezterm.packages.${pkgs.system}.default
     kitty
     # cool-retro-term
+    flameshot
 
     starship
     helix
