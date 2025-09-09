@@ -58,7 +58,7 @@
         ./lsp.nix
         # ./rust.nix
         # ./radicle.nix
-        ./wasm.nix
+        # ./wasm.nix
         ./info-fetchers.nix
         ./utils.nix
         ./terminal-utils.nix
