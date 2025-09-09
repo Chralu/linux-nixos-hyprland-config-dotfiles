@@ -50,7 +50,7 @@
         # ./clamav-scanner.nix
         ./mosh.nix
         ./firewall.nix
-        ./dns.nix
+        # ./dns.nix
         ./vpn.nix
         ./users.nix
         ./virtualisation.nix
