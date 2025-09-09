@@ -24,7 +24,7 @@
 
     # inputs.wezterm.packages.${pkgs.system}.default
     kitty
-    cool-retro-term
+    # cool-retro-term
 
     starship
     helix
