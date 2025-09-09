@@ -42,6 +42,7 @@
         # ./printing.nix
         # ./gnome.nix
         ./hyprland.nix
+        ./keyring.nix
         # ./environment-variables.nix
         ./bluetooth.nix
         ./networking.nix
