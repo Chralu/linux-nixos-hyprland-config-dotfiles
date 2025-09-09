@@ -42,7 +42,7 @@
         # ./printing.nix
         # ./gnome.nix
         ./hyprland.nix
-        ./environment-variables.nix
+        # ./environment-variables.nix
         ./bluetooth.nix
         ./networking.nix
         # ./mac-randomize.nix
