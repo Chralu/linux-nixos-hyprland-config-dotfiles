@@ -3,14 +3,13 @@
 
   inputs = {
       nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-      rust-overlay.url = "github:oxalica/rust-overlay";
-      wezterm.url = "github:wez/wezterm?dir=nix";
-      radicle-tui.url = "git+https://seed.radicle.xyz/z39mP9rQAaGmERfUMPULfPUi473tY.git?rev=dcc51b96a90d6e63cd69fae7f29e896f13816a1f";
+      # rust-overlay.url = "github:oxalica/rust-overlay";
+      # wezterm.url = "github:wez/wezterm?dir=nix";
   };
 
   outputs = { nixpkgs, ... } @ inputs:
   {
-    nixosConfigurations.isitreal-laptop = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.bagage = nixpkgs.lib.nixosSystem {
       specialArgs = { inherit inputs; };
       modules = [
         ./configuration.nix
@@ -57,7 +56,7 @@
         ./virtualisation.nix
         ./programming-languages.nix
         ./lsp.nix
-        ./rust.nix
+        # ./rust.nix
         ./radicle.nix
         ./wasm.nix
         ./info-fetchers.nix
