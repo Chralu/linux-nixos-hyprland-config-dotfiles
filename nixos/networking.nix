@@ -29,6 +29,7 @@
 
   environment.systemPackages = with pkgs; [
     iwgtk
+    adwaita-icon-theme
     impala
   ];
 }
