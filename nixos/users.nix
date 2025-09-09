@@ -4,12 +4,13 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.chralu = {
     isNormalUser = true;
-    description = "xnm";
+    description = "chralu";
     extraGroups = [ "networkmanager" "input" "wheel" "video" "audio" "tss" ];
     shell = pkgs.fish;
     packages = with pkgs; [
       vscodium
       firefox
+      fractal
     ];
   };
 
