@@ -14,6 +14,7 @@
       intel-compute-runtime
       intel-media-driver    # LIBVA_DRIVER_NAME=iHD
       intel-vaapi-driver    # LIBVA_DRIVER_NAME=i965 (older but works better for Firefox/Chromium)
+      vpl-gpu-rt 
       vaapiVdpau
       libvdpau-va-gl
       mesa
@@ -28,4 +29,10 @@
       libvdpau-va-gl
     ];
   };
+
+  environment.systemPackages = with pkgs; [
+    intel-gpu-tools
+    libva-utils
+    mesa
+  ];
 }
