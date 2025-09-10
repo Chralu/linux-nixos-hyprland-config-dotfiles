@@ -11,7 +11,10 @@
       vscodium
       firefox
       fractal
-      lnav
+      lnav # logs analysis
+      jq   # json processing
+      coreutils #base64 utils
+      urlencode
     ];
   };
 
