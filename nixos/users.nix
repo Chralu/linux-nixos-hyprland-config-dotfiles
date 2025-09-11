@@ -10,7 +10,11 @@
     packages = with pkgs; [
       vscodium
       firefox
-      fractal
+
+      fractal # Matrix client
+
+      marksman # LSP for markdown note taking
+
       lnav # logs analysis
       jq   # json processing
       coreutils #base64 utils

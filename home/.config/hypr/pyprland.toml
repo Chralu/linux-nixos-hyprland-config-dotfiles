@@ -13,6 +13,15 @@ excludes = "*"
 lazy = true
 multi = false
 
+[scratchpads.notes]
+command = "kitty --class notes_dropdown fish -c noteapp"
+class = "notes_dropdown"
+animation = "fromLeft"
+size= "40% 90%"
+excludes = "*"
+lazy = true
+multi = false
+
 [scratchpads.volume]
 command = "pavucontrol"
 animation = "fromLeft"
