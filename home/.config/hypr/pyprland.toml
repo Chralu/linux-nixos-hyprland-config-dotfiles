@@ -6,8 +6,8 @@ plugins = [
 ]
 
 [scratchpads.term]
-command = "kitty --class dropdown"
-class = "dropdown"
+command = "kitty --class term_dropdown"
+class = "term_dropdown"
 animation = "fromTop"
 excludes = "*"
 lazy = true
