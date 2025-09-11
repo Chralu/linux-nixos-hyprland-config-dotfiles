@@ -32,7 +32,7 @@
             // "default": "",
             // "empty": ""
         },
-        "show-special": true,
+        "show-special": false,
         "persistent-workspaces": {
             "*": 9,  
         },
