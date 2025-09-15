@@ -29,5 +29,6 @@
     ansible-language-server
     hyprls
     helix-gpt
+    powershell-editor-services
   ];  
 }

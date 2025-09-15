@@ -33,6 +33,9 @@ display-inlay-hints = true
 [editor.soft-wrap]
 enable = true
 
+[editor.search]
+smart-case = true
+
 [keys.normal]
 backspace = { w = ":w", d = ":bc", S-d = ":bca", q = ":q", A-w = ":w!", A-q = ":q!", A-d = ":bc!", A-S-d = ":bca!" }
 S-l = ":bn"

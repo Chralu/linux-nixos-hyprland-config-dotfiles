@@ -9,6 +9,7 @@
     nodePackages_latest.pnpm
     bun
     lua
+    powershell
     zig
     numbat
   ];
