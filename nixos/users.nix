@@ -21,6 +21,10 @@
       jq   # json processing
       coreutils #base64 utils
       urlencode
+
+      hexyl      # Hexa viewer cli
+      hexcurse   # Hexa editor
+
     ];
   };
 
