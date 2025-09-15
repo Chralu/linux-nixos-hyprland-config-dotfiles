@@ -15,6 +15,8 @@
 
       marksman # LSP for markdown note taking
 
+      # Video playback
+      freetube 
       lnav # logs analysis
       jq   # json processing
       coreutils #base64 utils
