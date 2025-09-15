@@ -2,10 +2,11 @@
 
 {
   # Define a user account. Don't forget to set a password with ‘passwd’.
+  programs.wireshark.enable = true;
   users.users.chralu = {
     isNormalUser = true;
     description = "chralu";
-    extraGroups = [ "networkmanager" "input" "wheel" "video" "audio" "tss" ];
+    extraGroups = [ "networkmanager" "wireshark" "input" "wheel" "video" "audio" "tss" ];
     shell = pkgs.fish;
     packages = with pkgs; [
       vscodium
@@ -17,6 +18,12 @@
 
       # Video playback
       freetube 
+
+      # Sniffing
+      wireshark
+      linux-wifi-hotspot
+      
+      # Dev tools
       lnav # logs analysis
       jq   # json processing
       coreutils #base64 utils
