@@ -22,6 +22,9 @@
   # users.extraGroups.docker.members = [ "xnm" ];
 
 
+  # Enable vmware
+  virtualisation.vmware.host.enable = true; 
+
   # Enable Podman
   virtualisation.podman = {
     enable = true;
