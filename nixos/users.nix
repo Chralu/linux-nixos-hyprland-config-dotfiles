@@ -11,6 +11,7 @@
     packages = with pkgs; [
       vscodium
       firefox
+      localsend
 
       fractal # Matrix client
 
@@ -34,6 +35,10 @@
 
     ];
   };
+
+  # Localsend ports
+  networking.firewall.allowedTCPPorts = [ 53317 ];
+  networking.firewall.allowedUDPPorts = [ 53317 ];
 
   # Change runtime directory size
   services.logind.settings.Login = {
