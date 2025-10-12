@@ -14,12 +14,7 @@
       modules = [
         ./configuration.nix
         ./hardware-configuration.nix
-        # ./nvidia.nix
-        # ./disable-nvidia.nix
-        ./opengl.nix
-        # ./fingerprint-scanner.nix
         # ./clamav-scanner.nix
-        # ./yubikey.nix
         ./sound.nix
         ./usb.nix
         ./keyboard.nix
@@ -31,40 +26,24 @@
         # ./gc.nix
         # ./auto-upgrade.nix
         ./linux-kernel.nix
-        ./screen.nix
-        # ./location.nix
-        ./display-manager.nix
         ./theme.nix
         ./internationalisation.nix
         ./fonts.nix
-        ./security-services.nix
+        # ./security-services.nix
         ./services.nix
-        # ./printing.nix
-        # ./gnome.nix
-        ./hyprland.nix
-        ./keyring.nix
-        # ./environment-variables.nix
-        ./bluetooth.nix
+        ./gnome.nix
         ./networking.nix
         # ./mac-randomize.nix
-        # ./open-ssh.nix
         # ./clamav-scanner.nix
-        ./mosh.nix
         ./firewall.nix
         # ./dns.nix
         # ./vpn.nix
         ./users.nix
-        ./virtualisation.nix
+        # ./virtualisation.nix
         ./programming-languages.nix
-        ./lsp.nix
-        # ./rust.nix
-        # ./radicle.nix
-        # ./wasm.nix
-        ./info-fetchers.nix
-        ./utils.nix
         ./terminal-utils.nix
         # ./llm.nix
-        ./work.nix
+        ./security-services.nix
       ];
     };
   };
