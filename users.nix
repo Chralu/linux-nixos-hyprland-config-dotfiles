@@ -18,6 +18,9 @@
       # Video playback
       freetube 
 
+      joplin-desktop     # notes taking
+      kitty
+      
       hexyl      # Hexa viewer cli
     ];
   };

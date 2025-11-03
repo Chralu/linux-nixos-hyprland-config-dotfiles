@@ -69,5 +69,13 @@
     rsclock
     cava
     figlet
+
+    helix
+    zoxide
+    direnv
+    starship
+
+    dnsutils
+    theharvester
   ];
 }
