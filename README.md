@@ -16,17 +16,11 @@
 - [Components](#-components)
 - [Features](#-features)
 - [Installation](#-installation)
-- [Keybindings](#️-keybindings)
-- [Useful aliases in Fish Shell](#-useful-aliases-in-fish-shell)
 - [License](#-license)
 
 ## 📖 About
 
-> This setup is a slight modification of @XNM1 [work](https://github.com/XNM1/linux-nixos-hyprland-config-dotfiles)
-> 
-> Huge thanks to him for sharing. 
-
-This repository houses my NixOS Linux ❄️ flake configuration, featuring the Hyprland window manager and adorned with the stylish Catppuccin Macchiato theme. I rely on this setup as my daily driver for work and programming, primarily in Rust 🦀. Feel free to utilize it in its entirety or borrow specific components for your own configuration.
+This repository houses my NixOS Linux Desktop ❄️ flake configuration, featuring the Hyprland window manager and adorned with the stylish Catppuccin Macchiato theme.
 
 > [!NOTE]
 > It's essential to note that this configuration is not minimalistic or lightweight and may require some disk space and knowledge to understand. If you're looking for something simpler, this configuration may not be suitable for you.
@@ -56,32 +50,15 @@ You have the flexibility to customize these configurations according to your nee
 | Kernel                | Zen                         |
 | Shell                 | Fish                        |
 | Display Server        | Wayland                     |
-| WM (Compositor)       | Hyprland                    |
-| Bar                   | Waybar                      |
-| Notification          | Dunst                       |
-| Launcher              | Rofi-Wayland                |
+| Desktop Manager       | Gnome|
 | Editor                | Helix                       |
 | Terminal              | Kitty + Starship          |
-| OSD                   | Avizo                       |
-| Night Gamma           | Wlsunset                    |
 | Fetch Utility         | Neofetch                    |
 | Theme                 | Catppuccin Macchiato        |
 | Icons                 | Colloid-teal-dark, Numix-Circle |
 | Font                  | JetBrains Mono + Nerd Font Patch |
-| File Browser          | Thunar + Yazi               |
-| Internet Browser      | Qutebrowser, Brave + Vimium + NightTab + Stylus |
-| Mimetypes             | MPV, Imv, Zathura            |
-| Image Editor          | Swappy                      |
-| Screenshot            | flameshot                |
-| Recorder              | flameshot                 |
-| Color Picker          | Hyprpicker                  |
-| Clipboard             | Wl-clipboard + Cliphist + Wl-clip-persist    |
-| Idle                  | Hypridle                    |
-| Lock                  | Hyprlock                    |
-| Logout menu           | Wlogout                     |
-| Wallpaper             | Hyprpaper                   |
+| Internet Browser      | Firefox|
 | Graphical Boot        | Plymouth + Catppuccin-plymouth |
-| Display Manager       | Greetd + Tuigreet           |
 | Containerization      | Podman                      |
 
 And many other useful utilities. The full list can be found in the system configuration files at `nixos` directory.
