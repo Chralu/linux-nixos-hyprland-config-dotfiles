@@ -36,7 +36,7 @@
         # ./mac-randomize.nix
         # ./clamav-scanner.nix
         ./firewall.nix
-        # ./dns.nix
+        ./dns.nix
         # ./vpn.nix
         ./users.nix
         # ./virtualisation.nix
