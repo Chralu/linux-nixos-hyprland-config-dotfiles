@@ -8,8 +8,8 @@
   environment.variables.HYPRCURSOR_THEME = "Catppuccin-Macchiato-Teal";
   environment.variables.HYPRCURSOR_SIZE = "24";
   qt.enable = true;
-  qt.platformTheme = "gtk2";
-  qt.style = "gtk2";
+  # qt.platformTheme = "gtk2";
+  # qt.style = "gtk2";
   console = {
     earlySetup = true;
     colors = [
@@ -40,10 +40,10 @@
       size = "standard";
       variant = "macchiato";
     };
-    discord = pkgs.discord.override {
-      withOpenASAR = true;
-      withTTS = true;
-    };
+    # discord = pkgs.discord.override {
+      # withOpenASAR = true;
+      # withTTS = true;
+    # };
   };
 
   environment.systemPackages = with pkgs; [

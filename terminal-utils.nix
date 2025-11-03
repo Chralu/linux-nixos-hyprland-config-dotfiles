@@ -17,8 +17,6 @@
     gitleaks
     # git-secrets
     pass-git-helper
-    jujutsu
-    jjui
     just
     xh
     process-compose
@@ -37,7 +35,7 @@
     # taskwarrior3
     asciinema
     asciinema-agg
-    aria
+    aria2
     # wormhole-william
     magic-wormhole-rs
     # macchina #neofetch alternative in rust
@@ -46,7 +44,7 @@
     ouch
     duf
     ncdu
-    du-dust
+    dust
     fd
     jq
     gh
