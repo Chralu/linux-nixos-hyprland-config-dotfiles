@@ -39,7 +39,7 @@
         ./dns.nix
         # ./vpn.nix
         ./users.nix
-        # ./virtualisation.nix
+        ./virtualisation.nix
         ./programming-languages.nix
         ./terminal-utils.nix
         # ./llm.nix

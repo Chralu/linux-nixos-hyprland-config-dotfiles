@@ -6,7 +6,7 @@
   users.users.charly = {
     isNormalUser = true;
     description = "charly";
-    extraGroups = [ "networkmanager" "wireshark" "input" "wheel" "video" "audio" "tss" ];
+    extraGroups = [ "networkmanager" "wireshark" "input" "wheel" "video" "audio" "tss" "libvirtd" "vboxusers"];
     shell = pkgs.fish;
     packages = with pkgs; [
       vscodium

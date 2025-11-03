@@ -23,7 +23,7 @@
 
 
   # Enable vmware
-  virtualisation.vmware.host.enable = true; 
+  # virtualisation.vmware.host.enable = true; 
 
   # Enable Podman
   virtualisation.podman = {
@@ -39,23 +39,30 @@
   environment.variables.DBX_CONTAINER_MANAGER = "podman";
   users.extraGroups.podman.members = [ "xnm" ];
 
+  # Enable libvirt
+  virtualisation.libvirtd.enable = true;
+  programs.virt-manager.enable = true;
+
+  # Enable virtualbox
+  virtualisation.virtualbox.host.enable = true;
+  
   environment.systemPackages = with pkgs; [
-    nvidia-docker
-    nerdctl
+    # nvidia-docker
+    # nerdctl
 
     # firecracker
     # firectl
     # flintlock
 
-    distrobox
+    # distrobox
     qemu
-    lima
+    # lima
 
     podman-compose
     podman-tui
 
-    docker-compose
-    # lazydocker
+    # docker-compose
+    lazydocker
     # docker-credential-helpers
   ];
 }
