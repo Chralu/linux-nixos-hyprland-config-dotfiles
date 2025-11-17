@@ -30,6 +30,7 @@
         # ./security-services.nix
         ./services.nix
         ./gnome.nix
+        # ./kde.nix
         ./networking.nix
         # ./mac-randomize.nix
         # ./clamav-scanner.nix
