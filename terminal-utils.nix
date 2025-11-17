@@ -22,7 +22,7 @@
     xh
     process-compose
     # mcfly # terminal history
-    # zellij
+    zellij
     progress
     noti
     topgrade
