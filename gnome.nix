@@ -12,6 +12,7 @@
   ]) ++ (with pkgs; [
         gnome-terminal
         gedit # text editor
+        evolution
         epiphany # web browser
         geary # email reader
         tali # poker game
