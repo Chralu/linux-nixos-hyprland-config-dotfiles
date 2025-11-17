@@ -28,11 +28,5 @@
     catppuccin-kvantum
     catppuccin-kde
     catppuccin-cursors.macchiatoTeal
-
-    # gnome.gnome-tweaks
-    # gnome.gnome-shell
-    # gnome.gnome-shell-extensions
-    # xsettingsd
-    # themechanger
   ];
 }
