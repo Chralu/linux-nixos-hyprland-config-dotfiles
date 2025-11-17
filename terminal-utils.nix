@@ -65,9 +65,6 @@
     yazi
     chafa
 
-    mise
-    p7zip
-
     cmatrix
     pipes-rs
     rsclock
