@@ -13,6 +13,7 @@
     zig
     numbat
 
+    dart
     python313Packages.python-lsp-server
     nodePackages_latest.nodemon
     nodePackages_latest.typescript
