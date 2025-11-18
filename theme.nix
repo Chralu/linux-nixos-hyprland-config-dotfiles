@@ -23,10 +23,4 @@
       "a5adcb"
     ];
   };
-
-  environment.systemPackages = with pkgs; [
-    catppuccin-kvantum
-    catppuccin-kde
-    catppuccin-cursors.macchiatoTeal
-  ];
 }
