@@ -10,6 +10,10 @@
   # programs.direnv.enable = true;
   # services.upower.enable = true;
   programs.fish.enable = true;
+  services.locate = {
+    enable = true;
+    package= pkgs.mlocate;
+  };
   # programs.dconf.enable = true;
   # services.dbus = {
     # enable = true;

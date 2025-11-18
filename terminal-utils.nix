@@ -76,7 +76,14 @@
     direnv
     starship
 
+    # pentest
     dnsutils
     theharvester
+    exploitdb
+    whatweb
+    nmap
+    gobuster
+    seclists
+    ffuf
   ];
 }
