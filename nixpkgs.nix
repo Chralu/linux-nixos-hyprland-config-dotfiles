@@ -2,7 +2,7 @@
 
 {
   # Allow unfree packages
-  nixpkgs.config.allowUnfree = false;
+  nixpkgs.config.allowUnfree = true;
   
   # Override packages
   # nixpkgs.config.packageOverrides = pkgs: {

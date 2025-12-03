@@ -13,6 +13,7 @@
         ./configuration.nix
         ./hardware-configuration.nix
         # ./clamav-scanner.nix
+        ./games.nix
         ./sound.nix
         ./usb.nix
         ./keyboard.nix
