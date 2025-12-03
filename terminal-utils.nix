@@ -47,7 +47,8 @@
     ncdu
     dust
     fd
-    jq
+    jq jnv
+    btop
     gh
     trash-cli
     zoxide
@@ -79,11 +80,13 @@
     # pentest
     dnsutils
     theharvester
-    exploitdb
+    exploitdb libxml2
     whatweb
     nmap
     gobuster
     seclists
     ffuf
+    inetutils
+    metasploit
   ];
 }
