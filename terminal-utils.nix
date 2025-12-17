@@ -88,5 +88,7 @@
     ffuf
     inetutils
     metasploit
+    dirb
+    wget
   ];
 }
