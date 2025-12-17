@@ -29,7 +29,7 @@
       freetube 
 
       joplin-desktop     # notes taking
-      kitty
+      alacritty
       
       hexyl      # Hexa viewer cli
     ];
