@@ -2,6 +2,8 @@
 
 {
   environment.systemPackages = with pkgs; [
+    gnumake
+    gcc
     go
     # (python313Full.withPackages(ps: with ps; [ pygobject3 gobject-introspection pyqt6-sip]))
     uv
