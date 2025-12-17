@@ -27,6 +27,8 @@
 
       # Video playback
       freetube 
+      # Music player
+      termusic yt-dlp
 
       joplin-desktop     # notes taking
       alacritty
